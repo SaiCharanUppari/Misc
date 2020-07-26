@@ -1,0 +1,62 @@
+
+#Java Installation
+apt-get update; apt-get install default-jdk -y;
+
+#Maven Installation
+apt-get update; apt-get install maven -y;
+
+#Docker Installation
+apt-get update; apt-get install docker.io -y;
+
+#Docker-Compose Installation
+apt-get update; apt-get install docker-compose -y;
+
+#SVN Installation
+apt-get update; apt-get install subversion;
+
+#MYSQL Installation
+apt-get update;
+apt-get install mysql-server -y;
+mysql_secure_installation
+#Check the MySQL service status
+systemctl status mysql.service
+
+#MYSQL UnInstallation
+apt-get remove -y mysql-*;
+apt-get purge -y mysql-*;
+
+#Angular Installation
+apt install python-software-properties
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+apt install nodejs
+npm install -g @angular/cli
+npm i npm@latest -g
+
+#Ansible Installation
+apt-get update;
+apt-get install software-properties-common;
+apt-add-repository ppa:ansible/ansible;
+apt-get update;
+apt-get install ansible;
+
+#JQ Installation
+apt-get update; apt-get install jq;
+
+#Unzip Installation
+apt-get update; apt-get install unzip;
+
+#Jenkins Download
+wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+
+#Run Jenkins
+java -jar jenkins.war --httpPort=8081 &
+
+# Creating mysql, sonarqube and jfrog containers
+
+# mysql : docker run --name db -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=Welcome123 mysql:latest
+
+# mongodb: docker run -d -p 27017-27019:27017-27019 --name mongodb mongo:4.0.4
+
+# jfrog : docker run --name artifactory -d -p 8085:8081 docker.bintray.io/jfrog/artifactory-oss:latest
+
+# sonar : docker run -d --name sonarqube -p 9000:9000 sonarqube
