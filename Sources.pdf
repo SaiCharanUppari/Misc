@@ -1,0 +1,26 @@
+# SpringBoot References
+
+Name	: Spring Boot Quick Start
+Creator	: Java Brains
+Source 	: Youtube
+URL		: https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x
+
+Name	: What is Spring Boot? | Introduction
+Creator	: Telusko
+Source 	: Youtube
+URL		: https://www.youtube.com/watch?v=Ch163VfHtvA
+
+# Bootstrap Rederences
+
+Name	: What is bootstrap
+Creator	: Kudvenkat
+Source	: Youtube
+URL		: https://www.youtube.com/watch?v=314m7YBRFvQ
+(Don't download anything, just watch it)
+
+Name	: Bootstrap 4 Tutorial
+Creator	: w3schools.com
+Source	: W3Schools - Documentation
+URL		: https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp
+(Don't download anything, use bootstrap from CDN, know how to include CDN in every HTML page under Get-Started page)
+(Refer this documentation for any class you want, for example: buttons, tables, form-controls, etc.)
